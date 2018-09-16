@@ -1,0 +1,19 @@
+{
+    "name": "elepey/doctrine-wordpress",
+    "type": "library",
+    "require": {
+        "doctrine/orm": "^2.6",
+        "symfony/yaml": "^4.1"
+    },
+    "authors": [
+        {
+            "name": "Pelepey Oleksandr",
+            "email": "sasha.pelepey@gmail.com"
+        }
+    ], 
+    "autoload": {
+        "psr-4": {
+            "Wordpress\\": "src/"
+        }
+    }
+}
